@@ -1592,8 +1592,8 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
             decoding: "async",
             className: "object-cover mx-auto rounded-lg border-2 border-muted-foreground/50",
             style: {
-              width: "600px",
-              height: "600px",
+              width: "500px",
+              height: "500px",
               color: "transparent",
             },
             src: "/logo.png",
@@ -1958,8 +1958,16 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
       r = e.i(96027);
     let n = [
       {
+        name: "Telegram",
+        description: "Join the Dust",
+        icon: "/telegram.png",
+        link: "https://t.me/dustsolchat",
+        color: "hover:border-white/50",
+        glow: "from-white/20 to-gray-500/20",
+      },
+      {
         name: "X Community",
-        description: "Join the 42ers",
+        description: "Join the Dust",
         icon: "/x.png",
         link: "https://x.com/Dustsol_X",
         color: "hover:border-white/50",
@@ -2005,12 +2013,12 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                 }),
                 (0, t.jsx)("p", {
                   className: "font-mono text-muted-foreground",
-                  children: "42 - Angel Dust OG",
+                  children: "Angel Dust OG",
                 }),
               ],
             }),
             (0, t.jsx)("div", {
-              className: "grid grid-cols-1 sm:grid-cols-3 gap-6",
+              className: "flex flex-row gap-6",
               children: n.map((e, n) =>
                 (0, t.jsxs)(
                   "a",
@@ -2091,20 +2099,9 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
             }),
             (0, t.jsx)("p", {
               className: "font-mono text-sm text-muted-foreground text-center",
-              children: "42 - Angel Dust OG",
+              children: "Angel Dust OG",
             }),
-            (0, t.jsxs)("blockquote", {
-              className:
-                "font-mono text-xs text-muted-foreground/70 text-center italic max-w-md",
-              children: [
-                "“The answer to the ultimate question of life, the universe, and everything is 42.”",
-                (0, t.jsx)("br", {}),
-                (0, t.jsx)("span", {
-                  className: "not-italic text-primary/70",
-                  children: "— Douglas Adams",
-                }),
-              ],
-            }),
+            
           ],
         }),
       });
