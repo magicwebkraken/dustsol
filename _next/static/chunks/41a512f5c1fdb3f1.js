@@ -1584,7 +1584,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
           (0, t.jsx)("p", {
             className:
               "font-mono text-lg sm:text-xl text-muted-foreground text-center mb-12",
-            children: "Angel Dust OG",
+            children: "Angel Dust OG - Crazy lore here involving Omar and CZ. Apparently Aster stole his idea called Angel Dust.",
           }),
           (0, t.jsx)("img", {
             alt: "42 Logo",
