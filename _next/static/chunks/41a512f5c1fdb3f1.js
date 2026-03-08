@@ -1600,7 +1600,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
               height: "500px",
               color: "transparent",
             },
-            src: "/logo.png",
+            src: "/back.jpg",
           }),
         ],
       });
