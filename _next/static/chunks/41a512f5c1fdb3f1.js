@@ -2018,7 +2018,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
               ],
             }),
             (0, t.jsx)("div", {
-              className: "flex flex-row gap-6",
+              className: "flex flex-row gap-6 w-full",
               children: n.map((e, n) =>
                 (0, t.jsxs)(
                   "a",
@@ -2026,7 +2026,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                     href: e.link,
                     target: "_blank",
                     rel: "noopener noreferrer",
-                    className: "group relative",
+                    className: "group relative flex-1",
                     children: [
                       (0, t.jsx)("div", {
                         className: `absolute -inset-0.5 bg-gradient-to-r ${e.glow} rounded-2xl blur opacity-0 group-hover:opacity-100 transition-all duration-500`,
