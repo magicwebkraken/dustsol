@@ -1961,7 +1961,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
         name: "X Community",
         description: "Join the 42ers",
         icon: "/x.png",
-        link: "https://x.com/i/communities/2030575702098288940",
+        link: "https://x.com/Dustsol_X",
         color: "hover:border-white/50",
         glow: "from-white/20 to-gray-500/20",
       },
